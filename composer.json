@@ -1,0 +1,19 @@
+{
+    "name": "lucas/design-patterns-crud",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Lucas Akira Ayabe",
+            "email": "lucas.ayabe@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Application\\": "./Application"
+        },
+        "files": [
+            "./Application/routes/index.php"
+        ]
+    },
+    "require": {}
+}
